@@ -8,7 +8,6 @@ categories:
 author: 何山
 index_img: ./I-俱乐部诚招新成员/cover.png
 banner_img:
-sticky: 999
 ---
 
 🎉 **I++ 俱乐部诚招新成员！** 🎉
