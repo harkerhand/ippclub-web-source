@@ -29,6 +29,7 @@ jobs:
         run: |
           git config --global user.name "harkerhand"
           git config --global user.email "harkerhand@outlook.com"
+          git remote set-url origin https://harkerhand:${{ secrets.GITHUB_TOKEN }}@github.com/IppClub/ippclub.github.io.git
           hexo deploy
 
       - run: echo "Deploy Successful!"
