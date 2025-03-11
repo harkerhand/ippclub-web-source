@@ -23,13 +23,14 @@ jobs:
           hexo clean
           hexo g
           echo "build blog successful"
-      - name: Deploy DoubleAm's Blog # 设置 git 信息并推送静态博客文件
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy Blog
+        env:
+          DEPLOY_PAT: ${{ secrets.HEXO_POST }}
         run: |
           git config --global user.name "harkerhand"
           git config --global user.email "harkerhand@outlook.com"
-          git remote set-url origin https://harkerhand:${{ secrets.GITHUB_TOKEN }}@github.com/IppClub/ippclub.github.io.git
+          git remote set-url origin https://harkerhand:${{ secrets.HEXO_POST }}@github.com/IppClub/ippclub.github.io.git
           hexo deploy
+
 
       - run: echo "Deploy Successful!"

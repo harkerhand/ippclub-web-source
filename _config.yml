@@ -101,8 +101,8 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: git
-  repo: https://github.com:IppClub/ippclub.github.io.git
+  type: git
+  repo: https://github.com/IppClub/ippclub.github.io.git
   branch: re24
 
 archive_generator:
