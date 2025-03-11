@@ -1,36 +1,42 @@
 name: Blog CI/CD
 on:
   push:
-    branches: master 
+    branches: master
 
 jobs:
-  blog: # 任务名称
-    timeout-minutes: 30 # 设置 30 分钟超时
-    runs-on: ubuntu-latest # 指定最新 ubuntu 系统
+  blog:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # 拉取仓库代码
-      - uses: actions/setup-node@v4 # 设置 node.js 环境
-      - name: Init Node.js # 安装源代码所需插件
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+      - name: Init Node.js
         run: |
           npm install
           echo "init node successful"
-      - name: Install Hexo-cli # 安装 Hexo
+      - name: Install Hexo-cli
         run: |
           npm install -g hexo-cli --save
           echo "install hexo successful"
-      - name: Build Blog # 编译创建静态博客文件
+      - name: Build Blog
         run: |
           hexo clean
           hexo g
           echo "build blog successful"
+
+      # -------------- 配置 SSH 认证 --------------
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.HEXO_POST }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+      # -------------------------------------------
+
       - name: Deploy Blog
-        env:
-          DEPLOY_PAT: ${{ secrets.HEXO_POST }}
         run: |
           git config --global user.name "harkerhand"
           git config --global user.email "harkerhand@outlook.com"
-          git remote set-url origin https://harkerhand:${{ secrets.HEXO_POST }}@github.com/IppClub/ippclub.github.io.git
           hexo deploy
-
 
       - run: echo "Deploy Successful!"
