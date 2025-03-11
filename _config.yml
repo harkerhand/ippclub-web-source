@@ -102,7 +102,7 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repo: git@github.com:IppClub/ippclub.github.io.git
+  repo: https://github.com:IppClub/ippclub.github.io.git
   branch: re24
 
 archive_generator:
