@@ -9,8 +9,8 @@ tags:
 - makefile		
 categories: 科普
 author: D-major
-index_img: https://raw.githubusercontent.com/Davidwadesmith/image-hosting/main/img/202504041649998.png
-banner_img: https://raw.githubusercontent.com/Davidwadesmith/image-hosting/main/img/202504041649998.png
+index_img: Makefile的使用方法/封面.jpg
+banner_img: Makefile的使用方法/封面.jpg
 ---
 ## 前置知识
 
