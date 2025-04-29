@@ -7,8 +7,8 @@ tags:
 categories:
 - 技术
 author: 幻影彭
-index_img: https://raw.githubusercontent.com/huan-yp/image_space/master/img/202504081258124.png
-banner_img: https://raw.githubusercontent.com/huan-yp/image_space/master/img/202504081258124.png
+index_img: CPP移动语义的实例-指针实现左偏树/封面.jpg
+banner_img: CPP移动语义的实例-指针实现左偏树/封面.jpg
 ---
 
 ### 简介
