@@ -19,7 +19,7 @@ banner_img: 构建自动化的-Yarn-Spinner-剧本生成流程/封面.jpg
 
 * **PocketFlow**：https://github.com/The-Pocket/PocketFlow-Template-Python
 
-* **本文实践（Yarn Agent） **：https://github.com/pigpigyyy/PocketFlow-Yarn-Story
+* **本文实践（Yarn Agent）**：https://github.com/pigpigyyy/PocketFlow-Yarn-Story
 
 * **Dora SSR 开源引擎**：https://github.com/IppClub/Dora-SSR
 
@@ -142,7 +142,7 @@ banner_img: 构建自动化的-Yarn-Spinner-剧本生成流程/封面.jpg
 
 &emsp;&emsp;结合前文提到的工作准备的步骤，我们实际最终的落地实践的完整流程如下：
 
-![flow](构建自动化的 Yarn Spinner 剧本生成流程/flow.jpg)
+![flow](构建自动化的-Yarn-Spinner-剧本生成流程/flow.jpg)
 
 ------
 
