@@ -46,10 +46,10 @@ banner_img:
 
 ### 第一轮淘汰：那些绑定引擎的对话系统
 
-- **Ren'Py：** **"你必须用我自己的引擎！"**（嗯，没得选，Pass）
-- **Fungus：** **"我是 Unity 的一部分！"**（Unity 才是 Fungus 的主体，而不是它自己，Pass）
-- **Twine：** **"我是 Web 交互故事的标准！"**（太偏 Web，Pass）
-- **Yarn Spinner：** **"为行业势力 Unity 低头！"**（虽然语法很香，但官方实现绑定 C#，Pass！）
+- **Ren'Py**："你必须用我自己的引擎！"（嗯，没得选，Pass）
+- **Fungus**："我是 Unity 的一部分！"（Unity 才是 Fungus 的主体，而不是它自己，Pass）
+- **Twine**："我是 Web 交互故事的标准！"（太偏 Web，Pass）
+- **Yarn Spinner**："为行业势力 Unity 低头！"（虽然语法很香，但官方实现绑定 C#，Pass！）
 
 &emsp;&emsp;这些方案都对 **特定引擎依赖太重**，直接出局！
 
