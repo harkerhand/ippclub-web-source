@@ -1,5 +1,5 @@
 ---
-title: 30 行代码，给 YueScript 语言增加新语法
+title: 30 行代码，用 C++ 给 YueScript 语言增加新语法
 date: 2025-05-30 18:00:00
 tags:
 - 'Dora SSR'
@@ -10,8 +10,6 @@ author: 李瑾
 index_img: 30行代码，给YueScript语言增加新语法/封面.jpg
 banner_img: 30行代码，给YueScript语言增加新语法/封面.jpg
 ---
-
-# 30 行代码，给 YueScript 语言增加新语法
 
 &emsp;&emsp;如果你刚开始学习 C++ 并对编译器开发感兴趣，那么 YueScript 编译器项目可能是个很好的入门点。本文以一个简单的例子，教你如何为 YueScript 语言增加一个新的语法结构，并解释其中涉及的一些基础知识。
 

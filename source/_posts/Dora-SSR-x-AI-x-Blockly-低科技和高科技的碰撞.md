@@ -10,8 +10,6 @@ index_img: Dora-SSR-x-AI-x-Blockly-低科技和高科技的碰撞/封面.jpg
 banner_img: Dora-SSR-x-AI-x-Blockly-低科技和高科技的碰撞/封面.jpg
 ---
 
-# Dora SSR x AI x Blockly 低科技和高科技的碰撞
-
 ## 一、引言：让 AI 和积木愉快地玩耍！
 
 &emsp;&emsp;书接上回，我们给 Dora SSR 开源游戏引擎整了个人类含量过高而 AI 含量不足的功能。所以急需开始整新活：这次要把看似古早又低科技的积木编程，和时髦值很高的 AI 技术硬撮合到一起！

@@ -11,8 +11,6 @@ index_img: YueScript：程序员手写代码的满月物语/封面.jpg
 banner_img: YueScript：程序员手写代码的满月物语/封面.jpg
 ---
 
-# YueScript：程序员手写代码的满月物语
-
 > 本文中，我们将展示 YueScript 独特的语法糖设计，包括管道操作符、可选链与空值合并、箭头函数、循环表达式、连锁比较与反向回调语法。通过代码示例，让你轻松感受 YueScript 如何提升编程的愉悦感。
 
 &emsp;&emsp;文中的编程语言项目请参见：
