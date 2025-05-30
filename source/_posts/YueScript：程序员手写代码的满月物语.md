@@ -220,6 +220,8 @@ perm <- loadPermissions user
 
 &emsp;&emsp;可以看到，YueScript 省略了许多语言繁琐的礼节：没有`then`、没有`end`，字符串拼接也优雅得多。代码里的每个字符几乎都是在表达业务含义，而不是为语法服务。这就是 YueScript 想给程序员的礼物：少写那些机器看得懂却让人分心的符号，多写人类真正关心的逻辑。 写代码再也不像写仪式文书，更像是在用自然语言沟通思想。
 
+![YueScript](YueScript：程序员手写代码的满月物语/yuescript.png)
+
 *YueScript 的 Logo 蕴含一轮弯月，象征着它继承自 MoonScript 的“月之力量”，也代表它给代码世界带来的皎洁月光般的语法之美。*
 
 
