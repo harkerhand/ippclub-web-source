@@ -11,8 +11,6 @@ index_img: ./当Yarn%20Spinner遇上Lua：一次对话系统的放浪逃亡/logo
 banner_img: 
 ---
 
-# 当 Yarn Spinner 遇上 Lua：一次对话系统的放浪逃亡
-
 > *这是一场关于从 Unity 出逃，踏上 C++ & Lua 的新旅程……*
 
 ## 故事开始：当我想要一个好用的对话系统

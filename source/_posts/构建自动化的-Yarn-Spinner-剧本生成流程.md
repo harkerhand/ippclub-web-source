@@ -11,8 +11,6 @@ index_img: 构建自动化的-Yarn-Spinner-剧本生成流程/封面.jpg
 banner_img: 构建自动化的-Yarn-Spinner-剧本生成流程/封面.jpg
 ---
 
-# 构建自动化的 Yarn Spinner 剧本生成流程
-
 &emsp;&emsp;大家好！今天来继续聊一聊如何利用大语言模型自动编写 Yarn Spinner 脚本，并进一步分享我们是如何将这一过程**完全自动化**的 —— 不仅让 AI 帮我们写剧本，甚至连 “写剧本的 AI 工具” 都是 AI 自己写出来的。
 
 ### 相关链接：
