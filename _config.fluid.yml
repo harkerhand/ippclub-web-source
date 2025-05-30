@@ -833,7 +833,7 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: 'https://waline.harkerhand.online/'
+  serverURL: 'https://waline.harkerhand.cn/'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
