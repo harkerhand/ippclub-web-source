@@ -10,8 +10,6 @@ index_img: Dora-SSR-x-Blockly—这种感觉我从未拥有/封面.jpg
 banner_img: Dora-SSR-x-Blockly—这种感觉我从未拥有/封面.jpg
 ---
 
-# Dora SSR x Blockly—这种感觉我从未拥有
-
 &emsp;&emsp;我们最近给 Dora SSR 开源游戏引擎整了个“有点可爱、有点大聪明”的新功能——图！形！编！程！（对，就是那种拖积木块写程序的东西~）本来我作为一名（不）正经专业开发者，对这类东西一度嗤之以鼻：“哼，不就是小孩子玩的编程玩具 Scratch 嘛，有啥好整的？”
 
 &emsp;&emsp;结果，万万没想到……我真香了。

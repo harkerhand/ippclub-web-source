@@ -1,5 +1,5 @@
 ---
-title: 'AI猫娘 启动！'
+title: AI猫娘 启动！
 date: 2025-03-19 15:47:24
 tags:
 - Python
@@ -10,8 +10,6 @@ author: ippclub
 index_img: ./AI猫娘 启动！/logo.png
 banner_img:
 ---
-
-# AI猫娘 启动！
 
 NcatBot，基于 NapCat 的 QQ 机器人 Python SDK，快速开发，轻松部署。
 
